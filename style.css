@@ -82,7 +82,7 @@ body{
 
 #main{
     margin-top: 119px;
-    background: url('images/map-blur.png');
+    background: url('images/map-blur.png') !important;
     background-repeat: repeat-y;
 }
 
@@ -142,7 +142,9 @@ a.info-box{
 }
 
 #info-box-full img{
-    width: 100%;
+    width: 50%;
+    display: block;
+    margin: auto;
 }
 
 #info-box-full h3{
